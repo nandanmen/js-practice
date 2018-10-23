@@ -32,7 +32,7 @@ function map(array, callback) {
  * Create a function forEach that takes an array and a callback,
  * and runs the callback on each element of the array.
  */
-function forEach(num) {
+function forEach(array, callback) {
     for (let i = 0; i < array.length; i++) {
         callback(array[i]);
     }
