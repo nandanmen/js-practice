@@ -58,10 +58,20 @@ function doAfter(count, func) {
     }
 }
 
+/* 
+ * Write a function delay that accepts a callback as the
+ * first parameter and the wait in milliseconds before
+ * allowing the callback to be invoked as the second parameter.
+ */
+function delay(func, wait) {
+
+}
+
 module.exports = {
     createFunction,
     createFunctionPrinter,
     addByX,
     doOnce,
-    doAfter
+    doAfter,
+    delay
 }

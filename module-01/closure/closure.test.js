@@ -1,4 +1,4 @@
-const functions = require('./callbacks');
+const functions = require('./closure');
 
 test('Expects addTwo(3) to return 5', () => {
     expect(functions.addTwo(3)).toBe(5);
